@@ -9,18 +9,19 @@ int main() {
 		cout << "Well done! A perfect score";
 	}
 	else if (grade >= 90 and grade <= 100) {
-		cout << "You recieved an A";
+		cout << "You recieved an A" << endl;
 	}
 	else if (grade >= 80 and grade <= 89) {
-		cout << "You recieved a B";
+		cout << "You recieved a B" << endl;
 	}
 	else if (grade >= 70 and grade <= 79) {
-		cout << "You recieved a C";
+		cout << "You recieved a C" << endl;
 	}
 	else if (grade >= 60 and grade <= 69) {
-		cout << "You recieved a D";
+		cout << "You recieved a D" << endl;
 	}
 	else {
-		cout << "You recieved an F";
+		cout << "You recieved an F" << endl;
 	}
+	system("PAUSE");
 }
